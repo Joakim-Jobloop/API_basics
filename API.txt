@@ -1,0 +1,30 @@
+async:
+
+async er et nøkkelord som brukes foran en funksjonsdefinisjon i JavaScript for å markere den som en asynkron funksjon. 
+Asynkron funksjonalitet tillater utførelsen av kodeblokker som kan inneholde await-anrop, 
+og som kan vente på at asynkron operasjoner skal fullføres uten å blokkere resten av programmet.
+
+await:
+
+await er et nøkkelord i JavaScript som brukes i asynkron programmering (med async-funksjoner). 
+Det brukes for å vente på at en asynkron operasjon (for eksempel en HTTP-forespørsel eller en tidsforsinkelse) 
+skal fullføres før programmet går videre til neste trinn. Når du bruker await foran en asynkron funksjonsanrop, 
+vil funksjonen pause utførelsen til operasjonen er fullført, og deretter returnere resultatet.
+
+
+catch:
+
+catch er en del av JavaScripts try-catch-funksjonalitet. Det brukes til å fange og håndtere unntak (feil) som oppstår 
+under utførelsen av en blokk med kode innenfor en try-blokk. Hvis en feil oppstår, vil kontrollen flyttes til den 
+tilhørende catch-blokken, der du kan håndtere feilen ved å definere passende logikk.
+
+error:
+
+error er en generell betegnelse for en uventet situasjon eller feil som oppstår i et program. I JavaScript og programmering generelt, 
+refererer "error" vanligvis til et objekt som inneholder informasjon om hva som gikk galt. Dette objektet kan inneholde detaljer som 
+feilmelding, feilkode, stack trace og mer.
+
+finally:
+
+finally er en blokk i JavaScripts try-catch-funksjonalitet. Den brukes til å definere kode som alltid skal utføres, uavhengig av om en 
+feil oppstår eller ikke i try-blokken. Dette er nyttig for opprydding eller frigjøring av ressurser, selv om det oppstår unntak.
